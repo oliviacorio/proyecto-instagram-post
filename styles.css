@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+body{
+    background-color: black;
+	font-family: 'Roboto', sans-serif;
+	height: 100vhs;
+}
+
+.feed{
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	width: 400px;
+	height: 560px;
+	margin: 10px;
+	
+}
+.html-logo{
+	
+	padding-top: 4px;
+	padding-right: 5px;
+}
+.top-feed{
+	display:flex;
+	margin: 10px;
+	
+}
+.puntos{
+	padding-top: 3px;
+	float: right;
+	align-items: flex-end;
+}
+
+.texto{
+	width: 380px;
+	padding-top: 2px;
+	padding-left: 2px;
+}
+h1{
+	font-size: 15px;
+	margin: 0;
+}
+.h1-min{
+	font-weight: normal;
+}
+img{
+
+    width: 400px;
+	height: 290px;
+	margin-top: 10px;
+}
+.iconos{
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+}
+.comentarios{
+	margin-top: 20px;
+	margin: 10px;
+}
